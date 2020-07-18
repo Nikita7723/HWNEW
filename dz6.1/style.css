@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+}
+
+body {
+  font-family: Proxima Nova;
+}
+.services {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.service {
+  padding-top: 56px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.service-icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+  background-color: #1275b9;
+  margin: auto;
+}
+
+a .service-icon:hover {
+  background-color: #fff;
+  border: 2px solid #1275b9; /* Рамка при наведении на ссылку курсора мыши */
+}
+a .icon_1 {
+  background: url(1_iconblue.png) no-repeat;
+  padding: 17px 21px 16px 22px;
+  width: 22px;
+  height: 30px;
+  display: block;
+  background-position: center;
+}
+a .icon_1:hover {
+  background: url(icon_1.png) no-repeat;
+  background-position: center;
+}
+a .icon_2 {
+  background: url(2_icon.png) no-repeat;
+  padding: 19px;
+  width: 26px;
+  height: 26px;
+  display: block;
+  background-position: center;
+}
+a .icon_2:hover {
+  background: url(2_icon_blue.png) no-repeat;
+  background-position: center;
+}
+a .icon_3 {
+  background: url(3_icon.png) no-repeat;
+  padding: 19px;
+  width: 28px;
+  height: 24px;
+  display: block;
+  background-position: center;
+}
+a .icon_3:hover {
+  background: url(3_iconblue2.png) no-repeat;
+  background-position: center;
+}
+
+.service-title {
+  text-transform: uppercase;
+  padding-bottom: 22px;
+  padding-top: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  letter-spacing: 0.35px;
+}
+.service_description {
+  color: #9d9d9d;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.35px;
+  width: 220px;
+}

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+  }
+  body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .main_container {
+    background-color: #3b3f45;
+    min-height: 750px;
+  }
+  header {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #4a4f56;
+  }
+  body > .header_container {
+    width: 782px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    color: #eb7e7f;
+  
+    text-align: center;
+  }
+  h1 + h2 {
+    color: #eb7e7f;
+    text-align: center;
+  }
+  
+  h2 {
+    font-weight: 200;
+  }
+  ul {
+    padding-inline-start: 0;
+  }
+  .order_list {
+    width: 782px;
+    min-height: 377px;
+    margin: 0 auto 37px auto;
+    padding-top: 40px;
+    text-align: left;
+  }
+  li {
+    list-style-type: none;
+    color: #f7e9df;
+    font-size: 22px;
+  }
+  ul li div {
+    padding-bottom: 25px; /* у всех ли в списке отступы такие*/
+    padding-top: 19px;
+  }
+  li:first-child {
+    background-color: #88839e;
+  }
+  li:nth-child(3) {
+    background-color: #88839e;
+  }
+  li:nth-child(5) {
+    background-color: #88839e;
+  }
+  li:nth-child(2) {
+    background-color: #7a7593;
+  }
+  li:nth-child(4) {
+    background-color: #7a7593;
+  }
+  li:last-child {
+    background-color: #7a7593;
+  }
+  
+  .li_child_uneven:hover {
+    background-color: #625e77;
+    border: 3px solid white;
+  }
+  
+  .li_child_even:hover {
+    background-color: #625e77;
+    border: 3px solid white;
+  }
+  
+  input[type="checkbox"]:checked {
+    background: red;
+  }
+  .checkbox input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 20px;
+  }
+  .round_brackets::before {
+    content: "(";
+  }
+  .round_brackets::after {
+    content: ")";
+  }
+  .round_brackets {
+    font-size: 18px;
+    color: #cacbd4;
+  }
+  .footer {
+    width: 782px;
+    background-color: #4a4f56;
+    padding-top: 28px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin: 0 auto;
+    color: #eb7e7f;
+  }
