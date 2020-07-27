@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    background-color: darksalmon;
+}
+.coffee {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.price {
+    color:green;
+    font-size: 70px;
+    padding-top: 0px;
+    margin: 0px;
+}
+.img {
+    margin: 0px;
+    margin-top: 5%;
+}
+.name {
+    font-size: 56px;
+    margin: 0px;
+    margin-top: 5%;
+}
+.namesmall {
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 5%;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+.bronze {
+    width: 360px;
+    height: 440px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gold {
+    width: 360px;
+    height: 500px;
+    display: flex;
+    background-color:white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.gold .img {
+    margin-top: 10%;
+}
+
+.silver {
+    width: 360px;
+    height: 440px;
+    display: flex;
+    background-color:white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
